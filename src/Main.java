@@ -3,7 +3,7 @@
 public class Main {
     public static void main(String[] args) {
         //Задача 1
-        int age = 6;
+        int age = 15;
 
         if (age >= 18){
             System.out.println("Если возраст человека равен " + age + ", то он совершеннолетний");
@@ -38,7 +38,7 @@ public class Main {
         //Задача 4
 
         //
-        if (age != 1 && age <= 6){
+        if (age <= 2 || age <= 6){
             System.out.println("Нужно ходить в детский сад");
         }
         else {
@@ -59,14 +59,14 @@ public class Main {
         System.out.println("");
 
         //Задача 5
-        boolean adult = false;
+        boolean adult = true;
 
         //
         if (age < 5){
             System.out.println("Если возраст ребенка равен " + age + ", то ему нельзя кататься на аттракционе");
         }
         else {
-            if(age > 5 && age < 14 && adult){
+            if(age >= 5 && age <= 14 && adult){
                 System.out.println("Если возраст ребенка равен " + age + ",то ему можно кататься на аттракционе в сопровождении");
             }
             else {
